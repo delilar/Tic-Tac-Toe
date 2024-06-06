@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.area {
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    transition: background-color 0.5s ease;
+    font-size: 64px;
+    font-family: 'Roboto';
+}
+
+.cell:hover {
+    background-color: #dcdcdc;
+}
